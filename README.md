@@ -14,6 +14,10 @@ The purpose of this work was to train a deep learning model on charity data, wit
 #### Compiling, Training, and Evaluating the Model
 * Hyperparameters used for model:
 ![alt text](https://github.com/linderkm/deep-learning-challenge/blob/main/images/AlphabetSoupCharity_hyperparameters.png)
+* With these hyperparamters, the model was not able to achieve 0.75 or greater accuracy. Additionaly, loss remained high. The following images contains results of evaluating the model against testing data:
+![alt text](https://github.com/linderkm/deep-learning-challenge/blob/main/images/AlphabetSoupCharity_model_evaluation.png)
+* The following steps were taken in an attempt to optimize the model: reduce dimensionality of the input data ('STATUS' and 'SPECIAL_CONSIDERATIONS' columns were removed), increase the count of neurons in the first layer, add dropout, add an additional hidden layer, and increase the number of training epochs from 200 to 1000.
+### Summary
 
 
 
