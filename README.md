@@ -1,4 +1,4 @@
-# deep-learning-challenge
+# Deep Learning Challenge
 This repo contains code and analysis for the Module 21 Challenge. Code for training and evaluation for the initial model can be found in AlphabetSoupCharity.ipynb. Code for attempted optimization can be found in AlphabetSoupCharity_Optimization.ipynb. Saved model instances and additional callbacks can be found in /models.
 
 References for this work can be found in the 'References' section below.
@@ -18,7 +18,7 @@ The purpose of this work was to train a deep learning model on charity data, wit
 ![alt text](https://github.com/linderkm/deep-learning-challenge/blob/main/images/AlphabetSoupCharity_model_evaluation.png)
 * The following steps were taken in an attempt to optimize the model: reduce dimensionality of the input data ('STATUS' and 'SPECIAL_CONSIDERATIONS' columns were removed), increase the count of neurons in the first layer, add dropout, add an additional hidden layer, and increase the number of training epochs from 200 to 1000.
 ### Summary
-
+Overall, this training approach failed to achieve a target accuracy of 0.75. While the model, when evaluated against testing data, neared this threshold, it failed to hit the mark. Attempted optimization also failed to meet this goal. As an alternative, a random forest model could be an option for this classification objective. Advantages include the ability to handle both numeric and categorical data, and handle data with high dimensionality.
 
 
 ## References
