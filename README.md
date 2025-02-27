@@ -12,7 +12,8 @@ The purpose of this work was to train a deep learning model on charity data, wit
 * Feature variables: 'EIN', 'NAME', 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION','USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', 'ASK_AMT'
 * Removed features: 'EIN' and 'NAME' were removed, as they are neither measurable features (for the purpose of training this particular model), or targets.
 #### Compiling, Training, and Evaluating the Model
-* 
+* Hyperparameters used for model:
+![alt text](https://github.com/linderkm/deep-learning-challenge/blob/main/images/AlphabetSoupCharity_hyperparameters.png)
 
 
 
